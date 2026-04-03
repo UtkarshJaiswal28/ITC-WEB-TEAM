@@ -1,0 +1,260 @@
+body {
+background-image:url("../images/background.jpg");
+ background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  color: white;
+}
+   
+.navbar {
+   position: relative;
+    height: 30px;
+    width: 60%;
+    background-color: rgb(35 29 29);
+    display: flex;
+    justify-content : space-between ;
+    align-items: center;
+    padding: 8px;
+
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: rgb(186 189 162 / 79%);
+    align-content: center;
+   
+}
+a {
+    margin-right: 60px;
+    padding-left: 40px;
+    color: #E0FBFC;
+    text-decoration: none;
+    
+}
+.full{
+    display: flex;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+       height: 90px;
+    position: relative;
+    margin: 0% 0% 2% 0%;
+
+}
+.iitblogo {
+    height: 140px;
+    position: relative;
+}
+
+.protest-guerrilla-regular {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.welcome{
+    height: 200px;
+    width: 200px;
+   color: aliceblue;
+   position: relative;
+   margin-left: 20%;
+
+}
+.roboimg {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    margin-left: 250px;
+    top: 50px;
+}
+.text1 {
+   display: ruby-text;
+   font-size: 50px;
+   color:white;
+text-shadow:0 0 15px #00E5FF;
+
+}
+
+.bitcount-grid-double {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+
+.text2
+{
+    position: relative;
+    font-size: 28px;
+    display: ruby-text;
+    margin-left: 90%;
+}
+
+
+/* about us page */
+.aboutus{
+  font-size: 40px;
+    height: 45px;
+    width: 200px;
+    background-color: rgb(0 0 0 / 76%);;
+    position: relative;
+    padding-top: 6px;
+    text-align: center;
+    border-radius: 7px;
+    border-width: 3px;
+    border-style: solid;
+    color: rgb(190 51 51);
+    border-color: #abb4b1;
+    margin-left: 20%;
+}
+.about{
+    height: 450px;
+    width: 1000px;
+    background-color: rgba(0,0,0,0.6);
+    position: relative;
+    border-width: 2px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(186 189 162 / 79%);
+    margin-left: 15%;
+    margin-top: 5px;
+    /* border-color:rgba(0,0,0,0.6); */
+}
+.abouttext{
+    height: 500px;
+    color: rgb(186 189 162);;
+    width: 800px;
+    font-size: 30px;
+    font-style: italic;
+    position: relative;
+    padding-top: 50px;
+    left: 130px;
+    margin-top: 0px;
+}
+
+/* contact us page  */
+.contactus {
+    font-size: 40px;
+  position: relative;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.contacts {
+    height: 450px;
+    background-color: blue;
+    width: 600px;
+    position: relative;
+    /* left: 450px; */
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgba(0,0,0,0.6);
+     border-radius: 15px;
+    border: 2px solid rgb(186 189 162 / 79%);
+}
+#text{
+    margin-left: 200px;
+    margin-top: 40px;
+     border-radius: 5px;
+    text-align: center;
+    height: 30px
+}
+#email{
+ margin-left: 200px;
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+#submit{
+ margin-left: 230px;
+    text-align: center;
+    height: 30px;
+   
+    border-radius: 5px;
+    margin-top: 70px;
+    height: 40px;
+    width: 120px;
+    background-color: #00E5FF;
+}
+#Message{
+ margin-left: 100px;
+    height: 120px;
+    width: 400px;
+    text-align: center;
+}
+
+
+/* events page */
+.events{
+    font-size: 30px;
+    height: 40px;
+    text-align: justify;
+    position: relative;
+    border-radius: 15px;
+    border: 2px solid rgb(186 189 162 / 79%);
+    padding-left: 15px;
+    margin-top: 70px;
+    background-color:rgba(0,0,0,0.6); 
+}
+
+#Upcomings{
+    top: 430px;
+}
+
+/* teampage  */
+
+.team {
+     text-align: justify;
+    position: relative;
+    border-radius: 15px;
+    border: 2px solid rgb(186 189 162 / 79%);
+     background-color:rgba(0,0,0,0.6); 
+     height: 120px;
+     width: 500px;
+     margin-left: 8%;
+    text-align: center;
+    margin-top: 2%;
+}
+.name{
+    /* text-align: center; */
+   font-size: 40px;
+    padding-top: 10px;
+}
+.club
+{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.Manager {
+    height: 120px;
+    margin-left: 50%;
+    margin-top: 2%;
+}
+
+/* transition  */
+a:hover {
+    color: #9C6615;
+}
+.about:hover{
+    box-shadow:0 0 15px #00E5FF;
+}
+.contacts:hover{
+     box-shadow:0 0 15px #00E5FF;
+}
+.team:hover{
+     box-shadow:0 0 15px #00E5FF;
+}
