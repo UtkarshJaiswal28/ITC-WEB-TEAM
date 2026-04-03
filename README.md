@@ -81,6 +81,22 @@ While building this website, I learned several important concepts related to web
 Overall, this project helped me understand the process of designing and developing a website from scratch and motivated me to explore web development further.
 ---
 
+## Challenges Faced
+
+While building this website, I faced several challenges during development:
+
+- **Responsiveness Issues:** Initially, the website was not properly responsive on different screen sizes. I had to adjust layout properties, spacing, and element positioning to make the pages look better on different devices.
+
+- **Overuse of CSS Properties:** During development, I experimented with many CSS properties, and in some places I ended up using unnecessary or redundant styling. Later, I tried to clean the code and understand which properties were actually needed.
+
+- **Integrating External Elements:** Adding elements like the 3D robot model and external fonts required additional styling adjustments to ensure they fit well with the overall design.
+
+- **UI Consistency:** Maintaining consistent spacing, fonts, and colors across different sections of the website required multiple iterations.
+
+These challenges helped me better understand **how CSS works, how layouts behave on different screens, and how to structure cleaner code.**
+
+---
+
 ## Author
 
 Created by **Utkarsh Jaiswal** 
